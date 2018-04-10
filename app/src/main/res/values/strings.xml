@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VirtaAssignment</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="internet_connection_problem">Please check internet connection</string>
+    <string name="loading">Loading...</string>
+    <string name="internet_connection_failed">Internet connection failed</string>
+    <string name="retry">Retry?</string>
+    <string name="empty_screen_text">Nothing has been found</string>
+</resources>
