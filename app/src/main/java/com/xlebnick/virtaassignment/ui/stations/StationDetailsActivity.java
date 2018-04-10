@@ -43,7 +43,7 @@ public class StationDetailsActivity extends BaseActivity {
     public static void startActivity(Context context, Station station, TextView txtLocation, TextView txtCoordinates, TextView txtCity) {
         Intent intent = new Intent(context, StationDetailsActivity.class);
         intent.putExtra(EXTRA_STATION, Parcels.wrap(station));
-        Pair<View, String> p1 = Pair.create(txtLocation, "lcoation");
+        Pair<View, String> p1 = Pair.create(txtLocation, "location");
         Pair<View, String> p2 = Pair.create(txtCoordinates, "coordinates");
         Pair<View, String> p3 = Pair.create(txtCity, "city");
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation((Activity) context, p1, p2, p3);

@@ -24,8 +24,8 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@color/background_light"
                 app:layout_collapseMode="parallax">
 
@@ -58,6 +58,16 @@
                     android:transitionName="location"/>
 
                 <TextView
+                    android:id="@+id/txtCity"
+                    style="@style/Caption1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/imgBackground"
+                    android:layout_margin="16dp"
+                    android:transitionName="city"/>
+
+                <TextView
                     android:id="@+id/txtCoordinates"
                     style="@style/H1"
                     android:layout_width="wrap_content"
@@ -70,15 +80,6 @@
                     android:ellipsize="end"
                     android:transitionName="coordinates"/>
 
-                <TextView
-                    android:id="@+id/txtCity"
-                    style="@style/Caption1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_below="@+id/imgBackground"
-                    android:layout_margin="16dp"
-                    android:transitionName="city"/>
 
             </RelativeLayout>
 
